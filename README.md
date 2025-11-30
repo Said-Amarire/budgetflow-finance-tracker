@@ -126,5 +126,5 @@ This project is open for educational and portfolio use.
 ---
 
 ## 👤 Author
-**Your Name**  
+**Said Amarire**  
 Frontend Developer in the ProDev Program  
