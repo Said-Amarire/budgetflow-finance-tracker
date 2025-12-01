@@ -72,7 +72,7 @@ budgetflow-finance-tracker/
 │   │   └── Chart.jsx
 │   ├── App.jsx
 │   ├── main.jsx
-│   ├── index.css     ← TailwindCSS imported here
+│   ├── index.css
 │   └── utils/
 │── package.json
 │── postcss.config.cjs
