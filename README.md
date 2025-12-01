@@ -63,7 +63,7 @@ This project focuses on delivering a clean design, solid frontend architecture, 
 
 ## 📁 Folder Structure
 
-,,,
+```
 
 budgetflow-finance-tracker/
 │── public/
@@ -80,8 +80,8 @@ budgetflow-finance-tracker/
 │ └── main.jsx
 │── package.json
 │── README.md
-│── vite.config.js
-,,,
+└── vite.config.js
+```
 
 
 ---
