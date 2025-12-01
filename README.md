@@ -1,130 +1,16 @@
-# BudgetFlow — Personal Finance Tracker 💰📊
+# React + Vite
 
-BudgetFlow is a modern and intuitive **personal finance tracking web application** designed to help users manage their **income, expenses, and budgets** in a clean and efficient way.  
-This project is built as part of **Project Nexus – ProDev Frontend**, following industry best practices in UI/UX, code quality, accessibility, and version control.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Live Demo  
-🔗 *Coming Soon…*
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## React Compiler
 
-## 🎯 Project Overview
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-BudgetFlow allows users to:
+## Expanding the ESLint configuration
 
-- Track **income** and **expense** entries  
-- View financial statistics in a **beautiful dashboard**  
-- Analyze monthly and yearly spending trends  
-- Visualize data using **interactive charts**  
-- Maintain better budgeting habits over time  
-
-This project focuses on delivering a clean design, solid frontend architecture, and a professional workflow.
-
----
-
-## ✨ Key Features
-
-### ✅ Core Features
-- Add / Edit / Delete Income Entries  
-- Add / Edit / Delete Expense Entries  
-- Categorize transactions (food, bills, salary, etc.)  
-- Dashboard with total income, expenses & balance  
-- Interactive charts powered by Recharts  
-- Responsive UI (mobile + desktop)
-
-### 🎨 UI/UX Features
-- Modern, clean interface  
-- Smooth micro-interactions  
-- Color system aligned with finance themes  
-- Accessible form elements  
-- Consistent layout and spacing
-
-### 🛠 Technical Features
-- Built with **React + Vite + TailwindCSS**  
-- Component-based architecture  
-- Reusable card + chart + form components  
-- LocalStorage persistence (for now)
-
----
-
-## 🧰 Technologies Used
-
-| Category | Technologies |
-|---------|--------------|
-| Frontend Framework | React (Vite) |
-| Styling | TailwindCSS |
-| Charts | Recharts |
-| State | React Hooks |
-| Deployment | Vercel or Netlify |
-| Version Control | Git & GitHub |
-
----
-
-## 📁 Folder Structure
-
-```
-budgetflow-finance-tracker/
-│── public/
-│── src/
-│   ├── components/
-│   ├── pages/
-│   ├── hooks/
-│   ├── data/
-│   ├── styles/
-│   ├── App.jsx
-│   └── main.jsx
-│── package.json
-│── README.md
-```
-
----
-
-## 🧪 Best Practices Followed
-
-- Clean and modular React components  
-- Meaningful & consistent naming conventions  
-- Proper Git workflow (branches → commits → PRs → merge)  
-- Responsible file organization & separation of concerns  
-- Accessibility: labels, contrasts, keyboard navigation  
-- Performance: memoization & minimal re-renders  
-
----
-
-## 🖼 Figma Design  
-🔗 *Coming Soon…*
-
----
-
-## 🎥 Demo Video  
-🔗 *Coming Soon…*
-
----
-
-## 📝 Presentation Slides  
-🔗 *Coming Soon…*
-
----
-
-## 🧭 Development Journey
-
-BudgetFlow was developed following industry standards taught in the ProDev program:
-
-- UI Design in Figma  
-- Frontend implementation with React  
-- Responsive & accessible UI  
-- Performance considerations  
-- Version control best practices  
-- Deployment using modern hosting platforms  
-
----
-
-## 📜 License
-This project is open for educational and portfolio use.
-
----
-
-## 👤 Author
-**Said Amarire**  
-Frontend Developer in the ProDev Program  
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
