@@ -5,11 +5,6 @@ This project is built as part of **Project Nexus – ProDev Frontend**, followin
 
 ---
 
-## 🚀 Live Demo  
-🔗 *Coming Soon…*
-
----
-
 ## 🎯 Project Overview
 
 BudgetFlow allows users to:
