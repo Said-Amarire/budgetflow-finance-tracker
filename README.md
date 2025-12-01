@@ -80,7 +80,7 @@ budgetflow-finance-tracker/
 │ └── main.jsx
 │── package.json
 │── README.md
-└── vite.config.js
+│── vite.config.js
 ,,,
 
 
