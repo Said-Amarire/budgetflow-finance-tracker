@@ -1,16 +1,137 @@
-# React + Vite
+# BudgetFlow — Personal Finance Tracker 💰📊
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BudgetFlow is a modern and intuitive **personal finance tracking web application** designed to help users manage their **income, expenses, and budgets** in a clean and efficient way.  
+This project is built as part of **Project Nexus – ProDev Frontend**, following industry best practices in UI/UX, code quality, accessibility, and version control.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo  
+🔗 *Coming Soon…*
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Project Overview
 
-## Expanding the ESLint configuration
+BudgetFlow allows users to:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Track **income** and **expense** entries  
+- View financial statistics in a **beautiful dashboard**  
+- Analyze monthly spending trends  
+- Visualize data using **interactive charts**  
+- Maintain better budgeting habits over time  
+
+This project focuses on delivering a clean design, solid frontend architecture, and a professional workflow.
+
+---
+
+## ✨ Key Features
+
+### ✅ Core Features
+- Add / Delete Income & Expense Entries  
+- Categorize transactions (e.g., Food, Bills, Salary)  
+- Dashboard showing **total income, expenses & balance**  
+- Interactive charts powered by **Chart.js**  
+- Responsive UI (mobile + desktop)
+
+### 🎨 UI/UX Features
+- Modern, clean interface  
+- Smooth interactions and feedback  
+- Color system aligned with finance themes  
+- Accessible form elements  
+- Consistent layout and spacing
+
+### 🛠 Technical Features
+- Built with **React + Vite + TailwindCSS**  
+- Component-based architecture  
+- Reusable card, chart, and form components  
+- LocalStorage persistence (transactions saved locally)
+
+---
+
+## 🧰 Technologies Used
+
+| Category | Technologies |
+|---------|--------------|
+| Frontend Framework | React (Vite) |
+| Styling | TailwindCSS |
+| Charts | Chart.js + react-chartjs-2 |
+| State Management | React Hooks |
+| Deployment | Vercel or Netlify |
+| Version Control | Git & GitHub |
+
+---
+
+## 📁 Folder Structure
+
+```
+
+budgetflow-finance-tracker/
+│── public/
+│── src/
+│ ├── components/
+│ │ ├── Sidebar.jsx
+│ │ ├── Navbar.jsx
+│ │ ├── Dashboard.jsx
+│ │ ├── Transactions.jsx
+│ │ ├── TransactionForm.jsx
+│ │ ├── TransactionList.jsx
+│ │ └── Chart.jsx
+│ ├── App.jsx
+│ └── main.jsx
+│── package.json
+│── README.md
+└── vite.config.js
+```
+
+
+---
+
+## 🧪 Best Practices Followed
+
+- Clean and modular React components  
+- Meaningful & consistent naming conventions  
+- Proper Git workflow (branches → commits → PRs → merge)  
+- Responsible file organization & separation of concerns  
+- Accessibility: labels, contrasts, keyboard navigation  
+- Performance: memoization & minimal re-renders  
+
+---
+
+## 🖼 Figma Design  
+🔗 [BudgetFlow Design](https://www.figma.com/design/0vnENh1oeWT30SPVBGga7h/BudgetFlow-%E2%80%93-Personal-Finance-Tracker?node-id=0-1&t=4kM05dKkq7InudjO-1)
+
+---
+
+## 🎥 Demo Video  
+🔗 [Watch the Video](https://drive.google.com/drive/folders/1Y61y88DhAO46xh19aBTFqjXrHXzSVmY0?usp=drive_link)
+
+---
+
+## 📝 Presentation Slides  
+🔗 [View the Slides](https://docs.google.com/presentation/d/1FgY8mhDXMI2__bX2yhvNjwnB0-_3jov4qXemt8Psdm0/edit?usp=sharing)
+
+---
+
+## 🧭 Development Journey
+
+BudgetFlow was developed following industry standards taught in the ProDev program:
+
+- UI Design in Figma  
+- Frontend implementation with React + TailwindCSS  
+- Responsive & accessible UI  
+- Dynamic charts using Chart.js  
+- LocalStorage for persistence  
+- Version control best practices (Git & GitHub)  
+- Ready for deployment on Vercel/Netlify  
+
+---
+
+## 📜 License
+This project is open for educational and portfolio use.
+
+---
+
+## 👤 Author
+**Said Amarire**  
+Frontend Developer in the ProDev Program
+
