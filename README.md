@@ -64,23 +64,27 @@ This project focuses on delivering a clean design, solid frontend architecture, 
 ## 📁 Folder Structure
 
 ```
-
 budgetflow-finance-tracker/
 │── public/
 │── src/
-│ ├── components/
-│ │ ├── Sidebar.jsx
-│ │ ├── Navbar.jsx
-│ │ ├── Dashboard.jsx
-│ │ ├── Transactions.jsx
-│ │ ├── TransactionForm.jsx
-│ │ ├── TransactionList.jsx
-│ │ └── Chart.jsx
-│ ├── App.jsx
-│ └── main.jsx
+│   ├── components/
+│   │   ├── Sidebar.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── Transactions.jsx
+│   │   ├── TransactionForm.jsx
+│   │   ├── TransactionList.jsx
+│   │   └── Chart.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css     ← TailwindCSS imported here
+│   └── utils/
 │── package.json
+│── postcss.config.cjs
+│── tailwind.config.cjs
 │── README.md
 └── vite.config.js
+
 ```
 
 
