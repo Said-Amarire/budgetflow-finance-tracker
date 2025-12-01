@@ -64,6 +64,7 @@ This project focuses on delivering a clean design, solid frontend architecture, 
 ## 📁 Folder Structure
 
 ,,,
+
 budgetflow-finance-tracker/
 │── public/
 │── src/
